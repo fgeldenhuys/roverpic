@@ -1,0 +1,11 @@
+[RoverAPI]
+Scheme = "https"
+Host = "api.nasa.gov"
+APIKey = "DEMO_KEY"
+
+[Downloader]
+DownloadPath = "./downloads"
+MaxConcurrentDownloads = 10
+
+[Server]
+Port = 8080
