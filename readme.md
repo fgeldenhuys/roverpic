@@ -22,7 +22,7 @@ Tests were however only written for the `roverapi` package.
 The endpoint for the assignment is implemented at `/download` and requires `date`
 as a query parameter in the format `YYYY-MM-DD`.
 
-Requests can be send to the server using curl, for example:
+Requests can be sent to the server using curl, for example:
 ```
 curl 'localhost:8080/download?date=2021-05-11'
 ```
